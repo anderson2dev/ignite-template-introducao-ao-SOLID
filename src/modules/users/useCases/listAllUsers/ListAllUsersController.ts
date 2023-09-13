@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import { ListAllUsersUseCase, IRequest } from "./ListAllUsersUseCase";
+import { ListAllUsersUseCase } from "./ListAllUsersUseCase";
 
 class ListAllUsersController {
   constructor(private listAllUsersUseCase: ListAllUsersUseCase) {}
